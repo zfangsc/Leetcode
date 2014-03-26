@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="docs">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file:///usr/lib/jvm/java-7-openjdk-i386/docs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file:///usr/lib/jvm/java-7-openjdk-i386/docs" />
+    </SOURCES>
+    <jarDirectory url="file:///usr/lib/jvm/java-7-openjdk-i386/docs" recursive="false" type="SOURCES" />
+  </library>
+</component>
