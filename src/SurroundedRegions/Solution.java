@@ -1,19 +1,101 @@
 package SurroundedRegions;
 
 import java.util.ArrayList;
-import java.util.ListIterator;
 
 /**
- * Created by fangzhou on 2/22/14.
+ * Author:  fangzhou
+ * Date:    2/22/14
+ * Time:    8:35 PM
  */
 public class Solution {
+
+
+    // Algorithm: keep indexes of the one which need to be changed
+
+    public void solve(char[][] board) {
+        char oo = 'O', xx = 'X', cc = 'C';
+        if(board.length < 1) {
+            return;
+        }
+        ArrayList<Integer> xind = new ArrayList<Integer>();
+        ArrayList<Integer> yind = new ArrayList<Integer>();
+
+        // first column and last column
+        for(int r = 0; r < board.length; r++) {
+            if(board[r][0] == oo) {
+                xind.add(r);
+                yind.add(0);
+            }
+            if(board[r][board[0].length-1] == oo) {
+                xind.add(r);
+                yind.add(board[0].length-1);
+            }
+        }
+        // first row and last row
+        for(int c = 0; c < board[0].length; c++) {
+            if(board[0][c] == oo) {
+                xind.add(0);
+                yind.add(c);
+            }
+            if(board[board.length-1][c] == oo) {
+                xind.add(board.length-1);
+                yind.add(c);
+            }
+        }
+
+        int cur = 0;
+        while(cur < xind.size()) {
+            int x = xind.get(cur);
+            int y = yind.get(cur);
+
+            cur++;
+            if(board[x][y] != oo) {
+                continue;
+            }
+
+            board[x][y] = cc;
+            if(x-1 >= 0 && board[x-1][y] == oo) {
+                xind.add(x-1);
+                yind.add(y);
+            }
+            if(y-1 >= 0 && board[x][y-1] == oo) {
+                xind.add(x);
+                yind.add(y-1);
+            }
+            if(x+1 < board.length && board[x+1][y] == oo) {
+                xind.add(x+1);
+                yind.add(y);
+            }
+            if(y+1 < board[0].length && board[x][y+1] == oo) {
+                xind.add(x);
+                yind.add(y+1);
+            }
+        }
+
+        // flip c to o
+        for(int r = 0; r < board.length; r++) {
+            for(int c = 0; c < board[0].length; c++) {
+                if(board[r][c] == oo) {
+                    board[r][c] = xx;
+                }
+                if(board[r][c] == cc) {
+                    board[r][c] = oo;
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
-        //String[] strings = new String[]{"This", "is", "an", "example", "of", "text", "justification."};
         //["XXXXOOXXO","OOOOXXOOX","XOXOOXXOX","OOXXXOOOO","XOOXXXXXO","OOXOXOXOX","OOOXXOXOX","OOOXOOOXO","OXOOOXOXO"]
-        char[][] strings = new char[][]{"XXXXOOXXO".toCharArray(),"OOOOXXOOX".toCharArray(),
+        char[][] strings1 = new char[][]{"XXXXOOXXO".toCharArray(),"OOOOXXOOX".toCharArray(),
                 "XOXOOXXOX".toCharArray(), "OOXXXOOOO".toCharArray(), "XOOXXXXXO".toCharArray(),
                 "OOXOXOXOX".toCharArray(), "OOOXXOXOX".toCharArray(), "OOOXOOOXO".toCharArray(),
                 "OXOOOXOXO".toCharArray()};
+
+        char[][] strings = new char[][]{"XXX".toCharArray(),"XOX".toCharArray(),
+                "XXX".toCharArray()};
+        char[][] strings2 = new char[][]{"O".toCharArray()};
+
 
         printArray(strings, "***Original***");
         new Solution().solve(strings);
@@ -31,6 +113,11 @@ public class Solution {
         System.out.println("\n\n");
     }
 
+
+
+    // Old way: scan from four side
+
+/*
     public void solve(char[][] board) {
         // IMPORTANT: Please reset any member data you declared, as
         // the same Solution instance will be reused for each test case.
@@ -180,6 +267,6 @@ public class Solution {
                 }
             }
         }
-    }
+    }*/
 
 }
