@@ -3,7 +3,8 @@
     <CLASSES />
     <JAVADOC />
     <SOURCES>
-      <root url="jar:///usr/lib/jvm/java-7-openjdk-i386/src.zip!/" />
+      <root url="jar:///usr/lib/jvm/jdk1.7.0_67/src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.11-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
