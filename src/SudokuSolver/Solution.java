@@ -4,6 +4,7 @@ package SudokuSolver;
  * Author: fangzhou
  * Date:   9/5/14.
  */
+// Algorithm came from http://www.cnblogs.com/TenosDoIt/p/3800485.html
 public class Solution {
     boolean[][] rows = new boolean[9][9];
     boolean[][] cols = new boolean[9][9];
