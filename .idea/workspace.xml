@@ -4,23 +4,19 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list id="21a9e7aa-4574-4911-a5cc-b06ad3908432" name="Default" comment="Integer to Roman&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
     <list default="true" id="72c41fff-2bbd-4613-9a83-0f5c2af34e36" name="Leetcode" comment="Multiply Strings">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/MockInterview.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PascalsTriangleII/PascalsTriangleIITest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/PrintAllPathsOfABinaryTreeTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/Solution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FacebookTest/Solution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordLadderII/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/src/TreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/src/Common/TreeNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,17 +142,23 @@
       <file leaf-file-name="Solution.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.28708133" vertical-offset="0" max-vertical-offset="418">
-              <folding />
+            <state line="0" column="34" selection-start="8" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#402#412#0" expanded="true" />
+                <element signature="e#1609#1619#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MockInterview/src/TreeNode.java">
+      <file leaf-file-name="PrintAllPathsOfABinaryTreeTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/PrintAllPathsOfABinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
+            <state line="30" column="42" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="585">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,9 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ValidPalindrome/Solution.java" />
-        <option value="$PROJECT_DIR$/src/ValidPalindrome/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/InsertionSortList/Solution.java" />
         <option value="$PROJECT_DIR$/src/InsertionSortList/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/SumRoottoLeafNumbers/Solution.java" />
         <option value="$PROJECT_DIR$/src/PalindromeNumber/Solution.java" />
@@ -225,6 +224,9 @@
         <option value="$PROJECT_DIR$/src/RomantoInteger/Solution.java" />
         <option value="$PROJECT_DIR$/src/IntegertoRoman/Solution.java" />
         <option value="$PROJECT_DIR$/MockInterview/src/TreeNode.java" />
+        <option value="$PROJECT_DIR$/MockInterview/src/Common/TreeNode.java" />
+        <option value="$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/PrintAllPathsOfABinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/Solution.java" />
       </list>
     </option>
   </component>
@@ -352,6 +354,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrintAllPathsOfABinaryTree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -371,21 +377,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PrintAllPathsOfABinaryTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,12 +396,12 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
-    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
@@ -419,101 +411,21 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="PrintAllPathsOfABinaryTree" />
       <recent name="PascalsTriangleII" />
       <recent name="LargestRectangleinHistogram1" />
       <recent name="PalindromePartitioningII" />
       <recent name="LongestPalindromicSubstring" />
-      <recent name="TrappingRainWater" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="CombinationSumII" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImplementstrStrTest.testStrStr">
-    <configuration default="false" name="LongestPalindromicSubstringTest.testLongestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="LongestPalindromicSubstring" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstring.LongestPalindromicSubstringTest" />
-      <option name="METHOD_NAME" value="testLongestPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PalindromePartitioningIITest.testMinCut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PalindromePartitioningII" />
-      <option name="MAIN_CLASS_NAME" value="PalindromePartitioningII.PalindromePartitioningIITest" />
-      <option name="METHOD_NAME" value="testMinCut" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LargestRectangleinHistogramTest.testLargestRectangleArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="LargestRectangleinHistogram1" />
-      <option name="MAIN_CLASS_NAME" value="LargestRectangleinHistogram1.LargestRectangleinHistogramTest" />
-      <option name="METHOD_NAME" value="testLargestRectangleArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PrintAllPathsOfABinaryTreeTest.testPrintPathIteratively">
     <configuration default="false" name="PascalsTriangleIITest.testGetRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -549,6 +461,78 @@
       <option name="PACKAGE_NAME" value="ImplementstrStr" />
       <option name="MAIN_CLASS_NAME" value="ImplementstrStr.ImplementstrStrTest" />
       <option name="METHOD_NAME" value="testStrStr" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrintAllPathsOfABinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MockInterview" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PrintAllPathsOfABinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="PrintAllPathsOfABinaryTree.PrintAllPathsOfABinaryTreeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrintAllPathsOfABinaryTreeTest.testPrintPathRecursively" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MockInterview" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PrintAllPathsOfABinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="PrintAllPathsOfABinaryTree.PrintAllPathsOfABinaryTreeTest" />
+      <option name="METHOD_NAME" value="testPrintPathRecursively" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrintAllPathsOfABinaryTreeTest.testPrintPathIteratively" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MockInterview" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PrintAllPathsOfABinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="PrintAllPathsOfABinaryTree.PrintAllPathsOfABinaryTreeTest" />
+      <option name="METHOD_NAME" value="testPrintPathIteratively" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -730,19 +714,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Solution (4)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LongestPalindromicSubstringTest.testLongestPalindrome" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PalindromePartitioningIITest.testMinCut" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LargestRectangleinHistogramTest.testLargestRectangleArea" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PascalsTriangleIITest.testGetRow" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ImplementstrStrTest.testStrStr" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PascalsTriangleIITest.testGetRow" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ImplementstrStrTest.testStrStr" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PrintAllPathsOfABinaryTreeTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PrintAllPathsOfABinaryTreeTest.testPrintPathRecursively" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PrintAllPathsOfABinaryTreeTest.testPrintPathIteratively" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ImplementstrStrTest.testStrStr" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PascalsTriangleIITest.testGetRow" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LargestRectangleinHistogramTest.testLargestRectangleArea" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PalindromePartitioningIITest.testMinCut" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LongestPalindromicSubstringTest.testLongestPalindrome" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PrintAllPathsOfABinaryTreeTest.testPrintPathIteratively" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PrintAllPathsOfABinaryTreeTest.testPrintPathRecursively" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PrintAllPathsOfABinaryTreeTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ImplementstrStrTest.testStrStr" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PascalsTriangleIITest.testGetRow" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -771,7 +755,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="21a9e7aa-4574-4911-a5cc-b06ad3908432" name="Default" comment="" />
+      <changelist id="" name="Default" comment="" />
       <changelist id="72c41fff-2bbd-4613-9a83-0f5c2af34e36" name="Leetcode" comment="" />
       <created>1391272347977</created>
       <updated>1391272347977</updated>
@@ -1020,7 +1004,15 @@
       <created>1410629396508</created>
       <updated>1410629396508</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Project config&#10;">
+      <created>1410708832000</created>
+      <updated>1410708832000</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Project Config">
+      <created>1410708869809</created>
+      <updated>1410708869809</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1048,7 +1040,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32473445" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32473445" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3171472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1057,17 +1049,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19948849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19948849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3657056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908952" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1084,8 +1076,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Regular expression matching" />
-    <MESSAGE value="InsertionSortList" />
     <MESSAGE value="ValidPalindrome" />
     <MESSAGE value="Leetcode" />
     <MESSAGE value="ConstructBinaryTreefromInorderandPre/PostorderTraversal" />
@@ -1109,7 +1099,9 @@
     <MESSAGE value="Multiply Strings" />
     <MESSAGE value="Roman to Integer" />
     <MESSAGE value="Integer to Roman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integer to Roman" />
+    <MESSAGE value="Project config&#10;" />
+    <MESSAGE value="Project Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Config" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1121,26 +1113,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.7.0_67/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1358" column="33" selection-start="55288" selection-end="55288" vertical-scroll-proportion="-0.12436548" vertical-offset="20059" max-vertical-offset="20805" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiplyStrings/MultiplyStringsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="59" selection-start="313" selection-end="313" vertical-scroll-proportion="0.49492386" vertical-offset="0" max-vertical-offset="394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiplyStrings/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="335" selection-end="335" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinimumDepthofBinaryTree/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="85" selection-end="201" vertical-scroll-proportion="0.28846154" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstructBinaryTreefromPreorderandInorderTraversal/ConstructBinaryTreefromPreorderandInorderTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="288" selection-end="602" vertical-scroll-proportion="0.2303207" vertical-offset="101" max-vertical-offset="450" />
@@ -1222,7 +1194,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="49" selection-start="444" selection-end="466" vertical-scroll-proportion="0.53125" vertical-offset="34" max-vertical-offset="450">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1281,7 +1253,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1297,7 +1269,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1347,8 +1319,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.5479452" vertical-offset="40" max-vertical-offset="405">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#248#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#239#248#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1385,13 +1357,6 @@
         <state line="47" column="31" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.71770334" vertical-offset="405" max-vertical-offset="1530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MockInterview/src/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="32" selection-start="311" selection-end="311" vertical-scroll-proportion="0.28708133" vertical-offset="0" max-vertical-offset="435">
@@ -1406,10 +1371,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.7.0_67/src.zip!/javax/swing/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="17" selection-start="870" selection-end="870" vertical-scroll-proportion="0.3325359" vertical-offset="206" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MockInterview/src/Common/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="52" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.7.0_67/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="728" column="6" selection-start="27793" selection-end="27793" vertical-scroll-proportion="0.33333334" vertical-offset="10449" max-vertical-offset="17925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.7.0_67/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="25" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.57416266" vertical-offset="135" max-vertical-offset="1860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/PrintAllPathsOfABinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="42" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="585">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.28708133" vertical-offset="0" max-vertical-offset="418">
-          <folding />
+        <state line="0" column="34" selection-start="8" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#412#0" expanded="true" />
+            <element signature="e#1609#1619#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1465,12 +1471,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Algorithms</last-edited>
+          <last-edited>MockInterview</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
