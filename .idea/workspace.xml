@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72c41fff-2bbd-4613-9a83-0f5c2af34e36" name="Leetcode" comment="Multiply Strings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/MockInterview.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PascalsTriangleII/PascalsTriangleIITest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/PrintAllPathsOfABinaryTreeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/Solution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FacebookTest/Solution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordLadderII/Solution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MockInterview/src/Common/TreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithms.iws" />
@@ -139,15 +134,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="34" selection-start="8" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+            <state line="0" column="34" selection-start="8" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#402#412#0" expanded="true" />
-                <element signature="e#1609#1619#0" expanded="true" />
+                <element signature="e#457#467#0" expanded="true" />
+                <element signature="e#1673#1683#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PascalsTriangleIITest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PascalsTriangleII/PascalsTriangleIITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22890">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,10 +168,8 @@
       <file leaf-file-name="PrintAllPathsOfABinaryTreeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/PrintAllPathsOfABinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="585">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="29" column="42" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="570">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1012,7 +1023,19 @@
       <created>1410708869809</created>
       <updated>1410708869809</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Project config">
+      <created>1410717415625</created>
+      <updated>1410717415625</updated>
+    </task>
+    <task id="LOCAL-00065" summary="PrintAllPathsOfABinaryTree">
+      <created>1410717441595</created>
+      <updated>1410717441595</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Pascals Triangle II Test">
+      <created>1410717475785</created>
+      <updated>1410717475785</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1076,9 +1099,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="ValidPalindrome" />
-    <MESSAGE value="Leetcode" />
-    <MESSAGE value="ConstructBinaryTreefromInorderandPre/PostorderTraversal" />
     <MESSAGE value="Scramble String" />
     <MESSAGE value="Partition List" />
     <MESSAGE value="Edit Distance" />
@@ -1101,7 +1121,10 @@
     <MESSAGE value="Integer to Roman" />
     <MESSAGE value="Project config&#10;" />
     <MESSAGE value="Project Config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Config" />
+    <MESSAGE value="Project config" />
+    <MESSAGE value="PrintAllPathsOfABinaryTree" />
+    <MESSAGE value="Pascals Triangle II Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pascals Triangle II Test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1113,11 +1136,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ConstructBinaryTreefromPreorderandInorderTraversal/ConstructBinaryTreefromPreorderandInorderTraversalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="288" selection-end="602" vertical-scroll-proportion="0.2303207" vertical-offset="101" max-vertical-offset="450" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstructBinaryTreefromInorderandPostorderTraversal/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="0" selection-start="1172" selection-end="1172" vertical-scroll-proportion="1.3028846" vertical-offset="88" max-vertical-offset="720" />
@@ -1308,13 +1326,6 @@
         <state line="8" column="23" selection-start="114" selection-end="114" vertical-scroll-proportion="0.215311" vertical-offset="30" max-vertical-offset="465" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PascalsTriangleII/PascalsTriangleIITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PascalsTriangleII/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.5479452" vertical-offset="40" max-vertical-offset="405">
@@ -1401,10 +1412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MockInterview/src/PrintAllPathsOfABinaryTree/PrintAllPathsOfABinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="585">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="29" column="42" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="570">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1413,9 +1422,23 @@
         <state line="0" column="34" selection-start="8" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#402#412#0" expanded="true" />
-            <element signature="e#1609#1619#0" expanded="true" />
+            <element signature="e#457#467#0" expanded="true" />
+            <element signature="e#1673#1683#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PascalsTriangleII/PascalsTriangleIITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22890">
+          <folding />
         </state>
       </provider>
     </entry>
