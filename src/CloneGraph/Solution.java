@@ -1,6 +1,9 @@
 package CloneGraph;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * Author:  fangzhou
@@ -31,7 +34,7 @@ public class Solution {
                 UndirectedGraphNode nClone = new UndirectedGraphNode(n.label);
                 h.put(n, nClone);
                 for(UndirectedGraphNode child : n.neighbors) {
-                    nClone.neighbors.add(child);
+                    nClone.neighbors.add(child);    // wrong.   TODO: fix later
                     if(!h.containsKey(child)) {
                         q.add(child);
                     }
