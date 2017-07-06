@@ -1,4 +1,4 @@
-package restoreIpAddresses;
+package RestoreIPAddresses;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
@@ -8,7 +8,7 @@ import java.util.ListIterator;
  */
 public class Solution {
     public ArrayList<String> restoreIpAddresses(String s) {
-        if(s == null || s.length() < 4 || s.length() > 12) {
+        if (s == null || s.length() < 4 || s.length() > 12) {
             return new ArrayList<String>();
         }
 
@@ -16,41 +16,40 @@ public class Solution {
     }
 
     public ArrayList<String> restoreIpHelper(String s, int sec) {
-        if(sec < 1 || sec > 4 || s == null || s.length() == 0) {
+        if (sec < 1 || sec > 4 || s == null || s.length() == 0) {
             return null;
         }
         ArrayList<String> result = new ArrayList<String>();
-        if(sec == 1) {
-            if(s.length() > 3) {
+        if (sec == 1) {
+            if (s.length() > 3) {
                 return null;
             }
-            if(s.charAt(0) == '0' && s.length() > 1) {
+            if (s.charAt(0) == '0' && s.length() > 1) {
                 return null;    // skip 00, 01 ...
             }
             int number = Integer.parseInt(s);
-            if(number < 256) {
+            if (number < 256) {
                 result.add(s);
                 return result;
-            }
-            else {
+            } else {
                 return null;
             }
         }
-        for(int dig = 1; dig <= 3; dig++) {
-            if(s.length() > dig) {
+        for (int dig = 1; dig <= 3; dig++) {
+            if (s.length() > dig) {
                 String current_number = s.substring(0, dig);
-                if(current_number.charAt(0) == '0' && current_number.length() > 1) {
+                if (current_number.charAt(0) == '0' && current_number.length() > 1) {
                     continue;   // skip 00, 01 ...
                 }
-                if(Integer.parseInt(current_number) > 255) {
+                if (Integer.parseInt(current_number) > 255) {
                     continue;
                 }
                 String rest_number = s.substring(dig);
-                ArrayList<String> rest = restoreIpHelper(rest_number, sec-1);
-                if(rest != null) {
-                    for(int i = 0; i < rest.size(); i++) {
+                ArrayList<String> rest = restoreIpHelper(rest_number, sec - 1);
+                if (rest != null) {
+                    for (int i = 0; i < rest.size(); i++) {
                         String restAdd = rest.get(i);
-                        result.add(current_number+"."+restAdd);
+                        result.add(current_number + "." + restAdd);
                     }
                 }
             }
@@ -59,9 +58,9 @@ public class Solution {
     }
 
     public static void printArray(ArrayList<String> arr) {
-        if(arr != null) {
+        if (arr != null) {
             ListIterator<String> iterator = arr.listIterator();
-            while(iterator.hasNext()) {
+            while (iterator.hasNext()) {
                 System.out.println(iterator.next());
 
             }
