@@ -1,4 +1,4 @@
-package SubstringwithConcatenationofAllWords;
+package SubstringWithConcatenationOfAllWords;
 
 import org.junit.Assert;
 import org.junit.Test;
