@@ -10,7 +10,7 @@ import org.junit.Test;
 public class PalindromeNumberTest {
     @Test
     public void testIsPalindrome() throws Exception {
-        Solution s = new Solution();
+        Solution2 s = new Solution2();
         Assert.assertFalse(s.isPalindrome(10));
         Assert.assertTrue(s.isPalindrome(11));
         Assert.assertTrue(s.isPalindrome(9));
