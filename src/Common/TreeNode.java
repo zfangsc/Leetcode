@@ -18,4 +18,23 @@ public class TreeNode {
     public TreeNode(int val) {
         this.val = val;
     }
+
+    @Override
+    public String toString() {
+        StringBuffer sb = new StringBuffer();
+        if (left != null) {
+            sb.append(left.toString());
+        } else {
+            sb.append('#');
+        }
+        sb.append('<');
+        sb.append(val);
+        sb.append('>');
+        if (right != null) {
+            sb.append(right.toString());
+        } else {
+            sb.append('#');
+        }
+        return sb.toString();
+    }
 }
